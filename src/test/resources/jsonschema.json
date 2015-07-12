@@ -1,0 +1,194 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "",
+  "type": "array",
+  "items": {
+    "id": "/0",
+    "type": "object",
+    "properties": {
+      "url": {
+        "id": "/0/url",
+        "type": "string"
+      },
+      "forks_url": {
+        "id": "/0/forks_url",
+        "type": "string"
+      },
+      "commits_url": {
+        "id": "/0/commits_url",
+        "type": "string"
+      },
+      "id": {
+        "id": "/0/id",
+        "type": "string"
+      },
+      "description": {
+        "id": "/0/description",
+        "type": "string"
+      },
+      "public": {
+        "id": "/0/public",
+        "type": "boolean"
+      },
+      "owner": {
+        "id": "/0/owner",
+        "type": "object",
+        "properties": {
+          "login": {
+            "id": "/0/owner/login",
+            "type": "string"
+          },
+          "id": {
+            "id": "/0/owner/id",
+            "type": "integer"
+          },
+          "avatar_url": {
+            "id": "/0/owner/avatar_url",
+            "type": "string"
+          },
+          "gravatar_id": {
+            "id": "/0/owner/gravatar_id",
+            "type": "string"
+          },
+          "url": {
+            "id": "/0/owner/url",
+            "type": "string"
+          },
+          "html_url": {
+            "id": "/0/owner/html_url",
+            "type": "string"
+          },
+          "followers_url": {
+            "id": "/0/owner/followers_url",
+            "type": "string"
+          },
+          "following_url": {
+            "id": "/0/owner/following_url",
+            "type": "string"
+          },
+          "gists_url": {
+            "id": "/0/owner/gists_url",
+            "type": "string"
+          },
+          "starred_url": {
+            "id": "/0/owner/starred_url",
+            "type": "string"
+          },
+          "subscriptions_url": {
+            "id": "/0/owner/subscriptions_url",
+            "type": "string"
+          },
+          "organizations_url": {
+            "id": "/0/owner/organizations_url",
+            "type": "string"
+          },
+          "repos_url": {
+            "id": "/0/owner/repos_url",
+            "type": "string"
+          },
+          "events_url": {
+            "id": "/0/owner/events_url",
+            "type": "string"
+          },
+          "received_events_url": {
+            "id": "/0/owner/received_events_url",
+            "type": "string"
+          },
+          "type": {
+            "id": "/0/owner/type",
+            "type": "string"
+          },
+          "site_admin": {
+            "id": "/0/owner/site_admin",
+            "type": "boolean"
+          }
+        }
+      },
+      "user": {
+        "id": "/0/user",
+        "type": "null"
+      },
+      "files": {
+        "id": "/0/files",
+        "type": "object",
+        "properties": {
+          "ring.erl": {
+            "id": "/0/files/ring.erl",
+            "type": "object",
+            "properties": {
+              "size": {
+                "id": "/0/files/ring.erl/size",
+                "type": "integer"
+              },
+              "raw_url": {
+                "id": "/0/files/ring.erl/raw_url",
+                "type": "string"
+              },
+              "type": {
+                "id": "/0/files/ring.erl/type",
+                "type": "string"
+              },
+              "truncated": {
+                "id": "/0/files/ring.erl/truncated",
+                "type": "boolean"
+              },
+              "language": {
+                "id": "/0/files/ring.erl/language",
+                "type": "string"
+              }
+            }
+          }
+        }
+      },
+      "comments": {
+        "id": "/0/comments",
+        "type": "integer"
+      },
+      "comments_url": {
+        "id": "/0/comments_url",
+        "type": "string"
+      },
+      "html_url": {
+        "id": "/0/html_url",
+        "type": "string"
+      },
+      "git_pull_url": {
+        "id": "/0/git_pull_url",
+        "type": "string"
+      },
+      "git_push_url": {
+        "id": "/0/git_push_url",
+        "type": "string"
+      },
+      "created_at": {
+        "id": "/0/created_at",
+        "type": "string"
+      },
+      "updated_at": {
+        "id": "/0/updated_at",
+        "type": "string"
+      }
+    },
+    "required": [
+      "url",
+      "forks_url",
+      "commits_url",
+      "id",
+      "description",
+      "public",
+      "owner",
+      "user",
+      "files",
+      "comments",
+      "comments_url",
+      "html_url",
+      "git_pull_url",
+      "git_push_url",
+      "created_at",
+      "updated_at"
+    ]
+  },
+  "required": [
+    "0"
+  ]
+}
